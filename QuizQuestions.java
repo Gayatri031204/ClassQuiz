@@ -4,18 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-class QuizQuestions {
-
+public class QuizQuestions {
 	String question, answer1, answer2, answer3, answer4;
 	int answer;
 
 	public QuizQuestions(String q, String a1, String a2, String a3, String a4, int a) {
-		this.question = q;
-		this.answer1 = a1;
-		this.answer2 = a2;
-		this.answer3 = a3;
-		this.answer4 = a4;
-		this.answer = a;
+		question = q;
+		answer1 = a1;
+		answer2 = a2;
+		answer3 = a3;
+		answer4 = a4;
+		answer = a;
 	}
 
 	public String getQ() {
@@ -23,11 +22,11 @@ class QuizQuestions {
 	}
 
 	public void setQ(String q) {
-		this.question = q;
+		question = q;
 	}
 
 	public void setCa(int ca) {
-		this.answer = ca;
+		answer = ca;
 	}
 
 	public int getCa() {
@@ -39,7 +38,7 @@ class QuizQuestions {
 	}
 
 	public void setA1(String a1) {
-		this.answer1 = a1;
+		answer1 = a1;
 	}
 
 	public String getA2() {
@@ -47,7 +46,7 @@ class QuizQuestions {
 	}
 
 	public void setA2(String a2) {
-		this.answer2 = a2;
+		answer2 = a2;
 	}
 
 	public String getA3() {
@@ -55,7 +54,7 @@ class QuizQuestions {
 	}
 
 	public void setA3(String a3) {
-		this.answer3 = a3;
+		answer3 = a3;
 	}
 
 	public String getA4() {
@@ -63,7 +62,7 @@ class QuizQuestions {
 	}
 
 	public void setA4(String a4) {
-		this.answer4 = a4;
+		answer4 = a4;
 	}
 
 	@Override
